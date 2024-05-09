@@ -26,7 +26,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="5977197340c7a7db17fe3e02a4e014ad997565ae" upstream="kirkstone"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"/>
   <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.71_2.2.2" upstream="kirkstone-5.15.71-2.2.2"/>
-  <project name="meta-curiosis" path="sources/meta-curiosis" remote="curiosis-bsp" revision="0b63a77ee193e3b0e2bac996404f304ce8dd0e30" upstream="master">
+  <project name="meta-curiosis" path="sources/meta-curiosis" remote="curiosis-bsp" upstream="master">
     <linkfile src="tools/tn-setup-release.sh" dest="tn-setup-release.sh"/>
     <linkfile src="README" dest="README-TechNexion-BSP"/>
   </project>
